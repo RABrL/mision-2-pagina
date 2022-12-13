@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <title>MISIÓN 2 CSS/HTML COEX - Tomado de FRONTED MENTOR</title>
+</head>
+<body>
+  <header>
+    <!-- BARRA DE NAVEGACION -->
+    <nav class="navbar navbar-expand-lg mx-5">
+      <div class="container-fluid ms-4">
+        <a class="navbar-brand" href="#">
+          <img src="./images/logo.svg" alt="span-logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse me-4" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Features <img class="ms-3" src="./images/icon-arrow-down.svg" alt="">
+              </a>
+              <ul class="dropdown-menu shadow border-0">
+                <li><a class="dropdown-item" href=""> 
+                  <img src="./images/icon-todo.svg"> Todo List</a></li>
+                <li><a class="dropdown-item" href="">
+                  <img src="./images/icon-calendar.svg"> Calendar</a></li>
+                <li><a class="dropdown-item" href="">
+                  <img src="./images/icon-reminders.svg"> Reminders</a></li>
+                <li><a class="dropdown-item" href="">
+                  <img src="./images/icon-planning.svg"> Planning</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Company <img class="ms-3" src="./images/icon-arrow-down.svg">
+              </a>
+              <ul class="dropdown-menu shadow border-0">
+                <li><a class="dropdown-item" href="#">History</a></li>
+                <li><a class="dropdown-item" href="#">Our Team</a></li>
+                <li><a class="dropdown-item" href="#">Blog</a></li>
+              </ul>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link">Careers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">About</a>
+            </li>
+          </ul>
+            <button class="btn btn-outline-dark me-4 px-5 rounded-5 border-0" type="button">Login</button>
+            <button class="btn btn-outline-dark px-5 rounded-5" type="button">Register</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="container d-flex">
+    <article class="text-container">
+      <header>
+        <h1 class="tittle-main">Make <br> remote work</h1>
+      </header>
+      <p class="text-main">
+        Get your team in sync, no matter your location. Streamline processes, 
+        create team rituals, and watch productivity soar.
+      </p>
+      <button id="learn-more" class="btn btn-outline-dark mt-1 py-2">Learn more</button>
+      <footer class="text-container-images ">
+        <img src="./images/client-audiophile.svg" alt="">
+        <img src="./images/client-databiz.svg" alt="">
+        <img src="./images/client-maker.svg" alt="">
+        <img src="./images/client-meet.svg" alt="">
+      </footer>
+    </article>
+    <section class="image-container container-fluid">
+      <img class="img-fluid rounded border-0" src="./images/image-hero-desktop.png" alt="imagen-main">
+    </section>
+  </main>
+
+  <footer>
+    <div class="attribution">
+      DESAFIO HTML Y CSS COEX <a href="https://coexdevelopers.com/" target="_blank">COEX - Conocimiento Exponencial</a>. 
+      Coded by <a href="#">Robinson Brito</a>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
